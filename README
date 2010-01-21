@@ -7,9 +7,11 @@ code needs cleaned up, but it works.  This includes code to create
 Code128 (C128 - there was a Code128 module already)
 Codabar
 Code 3 of 9 (aka "Code 39" and "USD-3") and Code 93
+Code 11
 Coop 2 of 5
 IATA 2 of 5 (aka "2 of 5" and "Industrial 2 of 5")
 Interleaved 2 of 5 (aka "I 2/5" and "ITF")
+Matrix 2 of 5
 Standard 2 of 5
 Plessey
 PostNet
