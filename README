@@ -30,7 +30,7 @@ use Code 128 nowadays as it's compact and easy, but Interleaved 2 of 5
 or Code 3 of 9 are also good for some applications.
 
 Any modern bar code scanner will read (at least) Code 128, Code 3 of 9
-and 93, Codabar, EAN and UPC variants, and most 2 of 5 variants.
+and 93, Codabar, EAN and UPC variants, and Interleaved 2 of 5.
 PostNet is rendered differently and as such is not readable by a
 standard scanner.  Read the documentation for each before using one -
 some are considered "legacy" and not recommended for general use.  They
