@@ -1,0 +1,42 @@
+This is my Perl 1D barcode library.  I wrote this years ago and haven't
+really touched it since.  I do use it now and then when I need to print
+barcodes.  The interfaces might not be consistent and definitely the
+code needs cleaned up, but it works.  This includes code to create
+*every* 1D barcode format that I could find.
+
+Code128 (C128 - there was a Code128 module already)
+Codabar
+Code 3 of 9 (aka "Code 39" and "USD-3") and Code 93
+Coop 2 of 5
+IATA 2 of 5 (aka "2 of 5" and "Industrial 2 of 5")
+Interleaved 2 of 5 (aka "I 2/5" and "ITF")
+Standard 2 of 5
+Plessey
+PostNet
+EAN-8 and EAN-13
+UPC-A and UPC-E
+UPC Supplemental 2 and UPC Supplemental 5
+
+
+I've also left my sample "play" code in here in various Perl programs.
+A test suite would be nice, as would consistency (as much as possible)
+in the interfaces.
+
+I have a few production applications which are spitting out bar codes
+using this code on various forms to make automation easier.  I typically
+use Code 128 nowadays as it's compact and easy, but Interleaved 2 of 5
+or Code 3 of 9 are also good for some applications.
+
+Any modern bar code scanner will read (at least) Code 128, Code 3 of 9
+and 93, Codabar, EAN and UPC variants, and most 2 of 5 variants.
+PostNet is rendered differently and as such is not readable by a
+standard scanner.  Read the documentation for each before using one -
+some are considered "legacy" and not recommended for general use.  They
+are included here in case somebody needs to generate them.
+
+Please note that the samples typically render PostScript, which I use
+when printing.  You can also easily render using GD or even HTML tables,
+depending on your application.  Note that PostScript files can easily be
+opened on Mac OS X by simply double-clicking them.
+
+These are released under an MIT license.  Feel free to contribute.
