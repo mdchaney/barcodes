@@ -37,6 +37,8 @@ are included here in case somebody needs to generate them.
 Please note that the samples typically render PostScript, which I use
 when printing.  You can also easily render using GD or even HTML tables,
 depending on your application.  Note that PostScript files can easily be
-opened on Mac OS X by simply double-clicking them.
+opened on Mac OS X by simply double-clicking them.  On Linux, use "gv"
+or "ghostview" to see them.  You can also install ghostview on a Mac
+using MacPorts.
 
 These are released under an MIT license.  Feel free to contribute.
