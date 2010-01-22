@@ -1,0 +1,4 @@
+1. Clean up comments - looks like Codabar was the basis for a few
+of these, and comments (see validate) still reference it.
+2. Better documentation for bar code types - what is RLE, W/N, etc.?
+3. Rewrite in Ruby.
