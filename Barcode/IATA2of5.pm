@@ -216,7 +216,7 @@ sub barcode {
   $wnstr = join('n', split(//, $wnstr));
 
   # At this point, $wnstr is a string of w's and n's, representing wide
-  # (2 units) and narrow (1 unit). As is standard, the first character
+  # (3 units) and narrow (1 unit). As is standard, the first character
   # is a bar, then it alternates between spaces and bars.
 
   my $retstr;
@@ -226,7 +226,7 @@ sub barcode {
 	 } else {      $outdigit=$self->{'barchar'};
 	 }
     if (substr($wnstr,$i,1) eq 'w') {
-      $retstr .= ($outdigit x 2);
+      $retstr .= ($outdigit x 3);
 	 } else {
       $retstr .= $outdigit;
 	 }
