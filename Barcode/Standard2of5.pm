@@ -54,7 +54,8 @@ None.
 
 =cut
 
-
+# 1 2 4 7 P - This only encodes the bars, all spaces are narrow
+# Not sure what I read when I made this, but "w" can be "2".
 my %patterns = (
 	'(' => '22n',
 	'0' => 'nnwwn',

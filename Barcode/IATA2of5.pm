@@ -59,7 +59,7 @@ None.
 
 =cut
 
-
+# 1 2 4 7 P - encodes only on bars, all spaces are narrow
 my %patterns = (
 	'(' => 'nn',
 	'0' => 'nnwwn',

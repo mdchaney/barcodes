@@ -61,7 +61,7 @@ None.
 
 =cut
 
-
+# 1 2 4 7 P
 my %patterns = (
 	'start' => 'nnnn',
 	'0' => 'nnwwn',

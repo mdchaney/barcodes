@@ -50,7 +50,7 @@ None.
 
 =cut
 
-
+# 7 4 2 1 P - encodes bars and spaces
 my %patterns = (
 	'(' => 'wnw',
 	'0' => 'wwnnn',

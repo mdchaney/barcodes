@@ -67,6 +67,7 @@ None.
 
 # patterns to create the bar codes:
 
+# 7 4 2 1 P - encoded as tall "1" and short "0" bars
 my %patterns=(
 '0' => '11000',
 '1' => '00011',
